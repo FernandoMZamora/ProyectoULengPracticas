@@ -1,0 +1,4393 @@
+﻿Build1=Default,b4a.example
+File1=0.jpg
+File10=7.jpg
+File11=8.jpg
+File12=9.jpg
+File13=A.jpg
+File14=Abecedario.png
+File15=App.db
+File16=B.jpg
+File17=C.jpg
+File18=D.jpg
+File19=E.jpg
+File2=1.jpg
+File20=F.jpg
+File21=frame-0.gif
+File22=frame-1.gif
+File23=frame-10.gif
+File24=frame-2.gif
+File25=frame-3.gif
+File26=frame-4.gif
+File27=frame-5.gif
+File28=frame-6.gif
+File29=frame-7.gif
+File3=10.jpg
+File30=frame-8.gif
+File31=frame-9.gif
+File32=frame-a.gif
+File33=frame-b.gif
+File34=frame-c.gif
+File35=frame-d.gif
+File36=frame-e.gif
+File37=frame-f.gif
+File38=frame-g.gif
+File39=frame-h.gif
+File4=1541195594359.png
+File40=frame-i.gif
+File41=frame-j.gif
+File42=frame-k.gif
+File43=frame-l.gif
+File44=frame-m.gif
+File45=frame-n.gif
+File46=frame-ñ.gif
+File47=frame-o.gif
+File48=frame-p.gif
+File49=frame-q.gif
+File5=2.jpg
+File50=frame-r.gif
+File51=frame-s.gif
+File52=frame-t.gif
+File53=frame-u.gif
+File54=frame-v.gif
+File55=frame-w.gif
+File56=frame-x.gif
+File57=frame-y.gif
+File58=frame-z.gif
+File59=G.jpg
+File6=3.jpg
+File60=H.jpg
+File61=I.jpg
+File62=J.jpg
+File63=K.jpg
+File64=L.jpg
+File65=M.jpg
+File66=manosp.png
+File67=manospintura.jpg
+File68=manosssss.png
+File69=Modales.png
+File7=4.jpg
+File70=N.jpg
+File71=Ñ.jpg
+File72=Numeros.png
+File73=O.jpg
+File74=P.jpg
+File75=Q.jpg
+File76=R.jpg
+File77=Registro.bal
+File78=S.jpg
+File79=T.jpg
+File8=5.jpg
+File80=topbanner-1458.jpg
+File81=U.jpg
+File82=V.jpg
+File83=W.jpg
+File84=X.jpg
+File85=Y.jpg
+File86=Z.jpg
+File9=6.jpg
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup61=Default Group
+FileGroup62=Default Group
+FileGroup63=Default Group
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=Default Group
+FileGroup67=Default Group
+FileGroup68=Default Group
+FileGroup69=Default Group
+FileGroup7=Default Group
+FileGroup70=Default Group
+FileGroup71=Default Group
+FileGroup72=Default Group
+FileGroup73=Default Group
+FileGroup74=Default Group
+FileGroup75=Default Group
+FileGroup76=Default Group
+FileGroup77=Default Group
+FileGroup78=Default Group
+FileGroup79=Default Group
+FileGroup8=Default Group
+FileGroup80=Default Group
+FileGroup81=Default Group
+FileGroup82=Default Group
+FileGroup83=Default Group
+FileGroup84=Default Group
+FileGroup85=Default Group
+FileGroup86=Default Group
+FileGroup9=Default Group
+Group=Default Group
+IconFile=
+Library1=core
+Library2=sql
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="26"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.DarkTheme)~\n~'End of default text.~\n~
+Module1=Starter
+NumberOfFiles=86
+NumberOfLibraries=2
+NumberOfModules=1
+Version=8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: ULeng!
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: True
+	#BridgeLogger: True
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Dim s As SQL
+	Dim c As Cursor
+
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	'These variables can only be accessed from this module.
+
+	Private btnRegistro As Button
+	Private btnLogin As Button
+	Private lblRegistrar As Label
+	Dim PanelLOGIN As Panel
+	Dim PanelREGISTRO As Panel
+	Private etxNUsuario As EditText
+	Private etxCorreo As EditText
+	Private etxCrearContraseña As EditText
+	Private etxVeriContraseña As EditText
+	Private etxUsuario As EditText
+	Private etxContraseña As EditText
+	Private imgA As ImageView
+	Private imgB As ImageView
+	Private imgC As ImageView
+	Private imgD As ImageView
+	Private imgE As ImageView
+	Private imgF As ImageView
+	Private imgG As ImageView
+	Private imgH As ImageView
+	Private imgI As ImageView
+	Private imgJ As ImageView
+	Private imgK As ImageView
+	Private imgL As ImageView
+	Private imgM As ImageView
+	Private imgN As ImageView
+	Private imgN_ As ImageView
+	Private imgO As ImageView
+	Private imgP As ImageView
+	Private imgQ As ImageView
+	Private imgR As ImageView
+	Private imgS As ImageView
+	Private imgT As ImageView
+	Private imgU As ImageView
+	Private imgV As ImageView
+	Private imgW As ImageView
+	Private imgX As ImageView
+	Private imgY As ImageView
+	Private imgZ As ImageView
+	Private btnABCRegresar As Button
+	Private imgAbecedario As ImageView
+	Private imgNumeros As ImageView
+	Private img0 As ImageView
+	Private img1 As ImageView
+	Private img2 As ImageView
+	Private img3 As ImageView
+	Private img4 As ImageView
+	Private img5 As ImageView
+	Private img6 As ImageView
+	Private img7 As ImageView
+	Private img8 As ImageView
+	Private img9 As ImageView
+	Private img10 As ImageView
+	Private btnNUMRegresar As Button
+	Private btnZRegresar As Button
+	Private btnYRegresar As Button
+	Private btnXRegresar As Button
+	Private btnWRegresar As Button
+	Private btnVRegresar As Button
+	Private btnURegresar As Button
+	Private btnTRegresar As Button
+	Private btnSRegresar As Button
+	Private btnRRegresar As Button
+	Private btnQRegresar As Button
+	Private btnPRegresar As Button
+	Private btnORegresar As Button
+	Private btnN_Regresar As Button
+	Private btnNRegresar As Button
+	Private btnMRegresar As Button
+	Private btnLRegresar As Button
+	Private btnKRegresar As Button
+	Private btnJRegresar As Button
+	Private btnIRegresar As Button
+	Private btnHRegresar As Button
+	Private btnGRegresar As Button
+	Private btnFRegresar As Button
+	Private btnERegresar As Button
+	Private btnDRegresar As Button
+	Private btnCRegresar As Button
+	Private btnBRegresar As Button
+	Private btnARegresar As Button
+	Private btn10Regresar As Button
+	Private btn9Regresar As Button
+	Private btn8Regresar As Button
+	Private btn7Regresar As Button
+	Private btn6Regresar As Button
+	Private btn5Regresar As Button
+	Private btn4Regresar As Button
+	Private btn3Regresar As Button
+	Private btn2Regresar As Button
+	Private btn1Regresar As Button
+	Private btn0Regresar As Button
+	Private PanelCATABECEDARIO As Panel
+	Private PanelCATNUMERO As Panel
+	Private PanelCATEGORIA As Panel
+	Private PanelZ As Panel
+	Private PanelY As Panel
+	Private PanelX As Panel
+	Private PanelW As Panel
+	Private PanelV As Panel
+	Private PanelU As Panel
+	Private PanelT As Panel
+	Private PanelS As Panel
+	Private PanelR As Panel
+	Private PanelQ As Panel
+	Private PanelP As Panel
+	Private PanelO As Panel
+	Private PanelÑ As Panel
+	Private PanelN As Panel
+	Private PanelM As Panel
+	Private PanelL As Panel
+	Private PanelK As Panel
+	Private PanelJ As Panel
+	Private PanelI As Panel
+	Private PanelH As Panel
+	Private PanelG As Panel
+	Private PanelF As Panel
+	Private PanelE As Panel
+	Private PanelD As Panel
+	Private PanelC As Panel
+	Private PanelB As Panel
+	Private PanelA As Panel
+	Private PanelNum10 As Panel
+	Private PanelNum9 As Panel
+	Private PanelNum8 As Panel
+	Private PanelNum7 As Panel
+	Private PanelNum6 As Panel
+	Private PanelNum5 As Panel
+	Private PanelNum4 As Panel
+	Private PanelNum3 As Panel
+	Private PanelNum2 As Panel
+	Private PanelNum1 As Panel
+	Private PanelNum0 As Panel
+	Private btnCerrarSesion As Button
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	'Do not forget to load the layout file created with the visual designer. For example:
+	'Activity.LoadLayout("Layout1")
+	Activity.LoadLayout("Registro")
+	
+	If File.Exists(File.DirInternal, "App.db") = False Then
+		File.Copy(File.DirAssets, "App.db", File.DirInternal, "App.db")
+	End If
+	
+	s.Initialize(File.DirInternal, "App.db", True)
+	
+	Log("Cantidad de Registros: "&s.ExecQuerySingleResult("Select count(*) from Datos"))
+	
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub btnRegistro_Click
+	
+	If etxNUsuario.Text<>"" And etxCorreo.Text<>"" And etxCrearContraseña.Text<>"" And etxVeriContraseña.Text<>"" Then
+		If etxCrearContraseña.Text = etxVeriContraseña.Text Then
+			
+			's.BeginTransaction()
+			s.ExecNonQuery("insert into datos (nombre, correocel, contraseña, vericontraseña) values ('" & etxNUsuario.Text & "', '" & etxCorreo.Text & "', '" & etxCrearContraseña.Text & "', '"&etxVeriContraseña.Text&"')")
+			's.EndTransaction()
+			
+			Msgbox("Registrado Exitosamente", "ULeng!")
+			PanelREGISTRO.Visible = False
+			PanelLOGIN.Visible = True
+			PanelCATABECEDARIO.Visible = False
+			PanelCATEGORIA.Visible = False
+			PanelCATNUMERO.Visible = False
+			PanelA.Visible = False
+			PanelB.Visible = False
+			PanelC.Visible = False
+			PanelD.Visible = False
+			PanelE.Visible = False
+			PanelF.Visible = False
+			PanelG.Visible = False
+			PanelH.Visible = False
+			PanelI.Visible = False
+			PanelJ.Visible = False
+			PanelK.Visible = False
+			PanelL.Visible = False
+			PanelM.Visible = False
+			PanelN.Visible = False
+			PanelÑ.Visible = False
+			PanelO.Visible = False
+			PanelP.Visible = False
+			PanelQ.Visible = False
+			PanelR.Visible = False
+			PanelS.Visible = False
+			PanelT.Visible = False
+			PanelU.Visible = False
+			PanelV.Visible = False
+			PanelW.Visible = False
+			PanelX.Visible = False
+			PanelY.Visible = False
+			PanelZ.Visible = False
+			PanelNum0.Visible = False
+			PanelNum1.Visible = False
+			PanelNum2.Visible = False
+			PanelNum3.Visible = False
+			PanelNum4.Visible = False
+			PanelNum5.Visible = False
+			PanelNum6.Visible = False
+			PanelNum7.Visible = False
+			PanelNum8.Visible = False
+			PanelNum9.Visible = False
+			PanelNum10.Visible = False
+			Else 
+			Msgbox("Las contraseñas no coinciden","Error!")
+			PanelREGISTRO.Visible = True
+			PanelLOGIN.Visible = False
+			PanelCATABECEDARIO.Visible = False
+			PanelCATEGORIA.Visible = False
+			PanelCATNUMERO.Visible = False
+			PanelA.Visible = False
+			PanelB.Visible = False
+			PanelC.Visible = False
+			PanelD.Visible = False
+			PanelE.Visible = False
+			PanelF.Visible = False
+			PanelG.Visible = False
+			PanelH.Visible = False
+			PanelI.Visible = False
+			PanelJ.Visible = False
+			PanelK.Visible = False
+			PanelL.Visible = False
+			PanelM.Visible = False
+			PanelN.Visible = False
+			PanelÑ.Visible = False
+			PanelO.Visible = False
+			PanelP.Visible = False
+			PanelQ.Visible = False
+			PanelR.Visible = False
+			PanelS.Visible = False
+			PanelT.Visible = False
+			PanelU.Visible = False
+			PanelV.Visible = False
+			PanelW.Visible = False
+			PanelX.Visible = False
+			PanelY.Visible = False
+			PanelZ.Visible = False
+			PanelNum0.Visible = False
+			PanelNum1.Visible = False
+			PanelNum2.Visible = False
+			PanelNum3.Visible = False
+			PanelNum4.Visible = False
+			PanelNum5.Visible = False
+			PanelNum6.Visible = False
+			PanelNum7.Visible = False
+			PanelNum8.Visible = False
+			PanelNum9.Visible = False
+			PanelNum10.Visible = False
+		End If
+		Else
+		Msgbox("No ingresó todos los datos", "Error!")
+		PanelREGISTRO.Visible = True
+		PanelLOGIN.Visible = False
+		PanelCATABECEDARIO.Visible = False
+		PanelCATEGORIA.Visible = False
+		PanelCATNUMERO.Visible = False
+		PanelA.Visible = False
+		PanelB.Visible = False
+		PanelC.Visible = False
+		PanelD.Visible = False
+		PanelE.Visible = False
+		PanelF.Visible = False
+		PanelG.Visible = False
+		PanelH.Visible = False
+		PanelI.Visible = False
+		PanelJ.Visible = False
+		PanelK.Visible = False
+		PanelL.Visible = False
+		PanelM.Visible = False
+		PanelN.Visible = False
+		PanelÑ.Visible = False
+		PanelO.Visible = False
+		PanelP.Visible = False
+		PanelQ.Visible = False
+		PanelR.Visible = False
+		PanelS.Visible = False
+		PanelT.Visible = False
+		PanelU.Visible = False
+		PanelV.Visible = False
+		PanelW.Visible = False
+		PanelX.Visible = False
+		PanelY.Visible = False
+		PanelZ.Visible = False
+		PanelNum0.Visible = False
+		PanelNum1.Visible = False
+		PanelNum2.Visible = False
+		PanelNum3.Visible = False
+		PanelNum4.Visible = False
+		PanelNum5.Visible = False
+		PanelNum6.Visible = False
+		PanelNum7.Visible = False
+		PanelNum8.Visible = False
+		PanelNum9.Visible = False
+		PanelNum10.Visible = False
+	End If
+	
+	
+End Sub
+
+Sub btnLogin_Click
+	
+	If etxUsuario.Text <> "" And etxContraseña.Text <> "" Then
+		'If s.ExecQuerySingleResult("SELECT COUNT(*) FROM Datos WHERE correocel = '" & etxUsuario.Text & "' AND contraseña = '" & etxContraseña.Text & "'") > 0 Then
+		'Dim nUsuario As Int = s.ExecQuerySingleResult("SELECT COUNT(*) FROM Datos")
+		Dim nUsuario As Int = s.ExecQuerySingleResult("SELECT COUNT(*) FROM Datos WHERE correocel = '" & etxUsuario.Text & "' AND contraseña = '" & etxContraseña.Text & "'")
+		If nUsuario > 0 Then
+			PanelREGISTRO.Visible = False
+			PanelLOGIN.Visible = False
+			PanelCATABECEDARIO.Visible = False
+			PanelCATEGORIA.Visible = True
+			PanelCATNUMERO.Visible = False
+			PanelA.Visible = False
+			PanelB.Visible = False
+			PanelC.Visible = False
+			PanelD.Visible = False
+			PanelE.Visible = False
+			PanelF.Visible = False
+			PanelG.Visible = False
+			PanelH.Visible = False
+			PanelI.Visible = False
+			PanelJ.Visible = False
+			PanelK.Visible = False
+			PanelL.Visible = False
+			PanelM.Visible = False
+			PanelN.Visible = False
+			PanelÑ.Visible = False
+			PanelO.Visible = False
+			PanelP.Visible = False
+			PanelQ.Visible = False
+			PanelR.Visible = False
+			PanelS.Visible = False
+			PanelT.Visible = False
+			PanelU.Visible = False
+			PanelV.Visible = False
+			PanelW.Visible = False
+			PanelX.Visible = False
+			PanelY.Visible = False
+			PanelZ.Visible = False
+			PanelNum0.Visible = False
+			PanelNum1.Visible = False
+			PanelNum2.Visible = False
+			PanelNum3.Visible = False
+			PanelNum4.Visible = False
+			PanelNum5.Visible = False
+			PanelNum6.Visible = False
+			PanelNum7.Visible = False
+			PanelNum8.Visible = False
+			PanelNum9.Visible = False
+			PanelNum10.Visible = False
+			Msgbox("Inicio Exitoso! " & nUsuario, "Entró")
+		Else
+			Msgbox("Usuario o contraseña incorrectos (" & etxUsuario.Text & ", " & etxContraseña.Text & ")", "Inicio de Sesión")
+		End If
+	Else
+		Msgbox("Debe ingresar usuario y contraseña", "Login incorrecto")
+	End If
+
+End Sub
+
+Sub lblRegistrar_Click
+	PanelREGISTRO.Visible = True
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgAbecedario_Click
+	PanelCATEGORIA.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgNumeros_Click
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgA_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = True
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgB_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = True
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgC_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = True
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgD_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = True
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgE_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = True
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgF_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = True
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgG_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = True
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgH_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = True
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgI_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = True
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgJ_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = True
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgK_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = True
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgL_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = True
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgM_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = True
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgN_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = True
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgO_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = True
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgP_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = True
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgQ_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = True
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgR_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = True
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgS_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = True
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgT_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = True
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgU_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = True
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgV_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = True
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgW_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = True
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgX_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = True
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgY_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = True
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgZ_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = True
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub imgN__Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = True
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnABCRegresar_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = True
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img0_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = True
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img1_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = True
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img2_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = True
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img3_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = True
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img4_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = True
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img5_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = True
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img6_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = True
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img7_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = True
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img8_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = True
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub img9_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = True
+	PanelNum10.Visible = False
+End Sub
+
+Sub img10_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = True
+End Sub
+
+Sub btnNUMRegresar_Click
+	PanelCATABECEDARIO.Visible = False
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = True
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnZRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnYRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnXRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnWRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnVRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnURegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnTRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnSRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnRRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnQRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnPRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnORegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnN_Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnNRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnMRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnLRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnKRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnJRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnIRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnHRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnGRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnFRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnERegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnDRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnCRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnBRegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnARegresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = True
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn10Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn9Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn8Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn7Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn6Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn5Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn4Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn3Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn2Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn1Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btn0Regresar_Click
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = False
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = True
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
+
+Sub btnCerrarSesion_Click
+	Msgbox("Ha cerrado sesión exitosamente","Cerrar Sesión")
+	PanelREGISTRO.Visible = False
+	PanelLOGIN.Visible = True
+	PanelCATABECEDARIO.Visible = False
+	PanelCATEGORIA.Visible = False
+	PanelCATNUMERO.Visible = False
+	PanelA.Visible = False
+	PanelB.Visible = False
+	PanelC.Visible = False
+	PanelD.Visible = False
+	PanelE.Visible = False
+	PanelF.Visible = False
+	PanelG.Visible = False
+	PanelH.Visible = False
+	PanelI.Visible = False
+	PanelJ.Visible = False
+	PanelK.Visible = False
+	PanelL.Visible = False
+	PanelM.Visible = False
+	PanelN.Visible = False
+	PanelÑ.Visible = False
+	PanelO.Visible = False
+	PanelP.Visible = False
+	PanelQ.Visible = False
+	PanelR.Visible = False
+	PanelS.Visible = False
+	PanelT.Visible = False
+	PanelU.Visible = False
+	PanelV.Visible = False
+	PanelW.Visible = False
+	PanelX.Visible = False
+	PanelY.Visible = False
+	PanelZ.Visible = False
+	PanelNum0.Visible = False
+	PanelNum1.Visible = False
+	PanelNum2.Visible = False
+	PanelNum3.Visible = False
+	PanelNum4.Visible = False
+	PanelNum5.Visible = False
+	PanelNum6.Visible = False
+	PanelNum7.Visible = False
+	PanelNum8.Visible = False
+	PanelNum9.Visible = False
+	PanelNum10.Visible = False
+End Sub
